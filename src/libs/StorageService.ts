@@ -4,7 +4,7 @@ import * as mongoose from "mongoose";
 
 export class StorageService<
   T extends mongoose.Model<IEntity>
-> extends ProdTestService {
+  > extends ProdTestService {
   private Model: T;
 
   constructor(Model: T) {
